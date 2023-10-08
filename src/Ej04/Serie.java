@@ -32,5 +32,3 @@ public class Serie {
 	Serie marci = new Serie("Dark", 5, entregado, "Drama", "Random");
 
 }
-
-
