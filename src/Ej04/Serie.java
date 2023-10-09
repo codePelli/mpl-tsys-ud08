@@ -10,12 +10,21 @@ public class Serie {
 	
 	public Serie() {
 		
-		this.titulo = titulo;
+		this.titulo = "";
 		this.temporadas  = 3;
 		this.entregado = false;
-		this.genero = genero;
-		this.creador = creador;
+		this.genero = "";
+		this.creador = "";
 		
+	}
+	
+	public Serie(String titulo, String creador) {
+		
+		this.titulo = titulo;
+		this.temporadas = 3;
+		this.entregado = false;
+		this.genero = "";
+		this.creador = creador;
 	}
 	
 	public Serie(String titulo, int temporadas, boolean entregado, String genero, String creador) {
